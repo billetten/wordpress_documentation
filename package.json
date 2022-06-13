@@ -1,0 +1,13 @@
+{
+    "name": "docsify-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "prepare": "run-s clean build",
+        "build": "rollup -c",
+        "clean": "rimraf dist/*",
+        "serve": "node server.js",
+        "start": "docsify serve docs"
+    }
+  }
