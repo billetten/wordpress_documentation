@@ -1,4 +1,4 @@
 #### Default
 ```php
-<x-bwps />
+<x-bwps.item />
 ```

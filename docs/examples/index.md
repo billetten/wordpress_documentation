@@ -25,5 +25,12 @@
 <!-- div:right-panel -->
 [example](gallery/code.md ':include :type=md')
 
+<!-- div:title-panel -->
+## Slider with BWPS
+<!-- div:left-panel -->
+[example intro](slider-use/intro.md ':include :type=md')
+<!-- div:right-panel -->
+[example](slider-use/code.md ':include :type=md')
+
 
 <!-- panels:end -->

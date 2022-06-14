@@ -1,14 +1,14 @@
 #### Example:
 ```php   
-<div class="event-tiles no-gutter columns-{{ $columns }}">
-    @foreach($mediaFiles as $path)
-        @include('components.media.modal', ['path' => $path, 'class' => 'event-tile standard'])
+<div class="event-tiles no-gutter columns-5">
+    @foreach($mediaFiles as $src)
+        <x-modal src="{{$src}}" class="gallery-item items-{{count($mediaFiles)}}"/>
     @endforeach
 </div>
 ``` 
 #### Modal component:
 ```php   
-@include('components.media.modal', ['path' => $path, 'class' => 'event-tile standard'])
+<x-modal src="{{$src}}" class="gallery-item items-{{count($mediaFiles)}}"/>
 ``` 
 #### Array structure in exampel: 
 ```php   
