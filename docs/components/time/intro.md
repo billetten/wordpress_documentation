@@ -1,0 +1,1 @@
+You can use it without given a timestamp with, but then it needs to be in a BWPS scope.

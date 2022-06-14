@@ -1,0 +1,4 @@
+#### Default
+```php
+<x-bwps />
+```

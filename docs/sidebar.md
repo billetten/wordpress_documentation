@@ -1,0 +1,16 @@
+-   **Documentaion**
+-   [About](/)
+-   [Getting started](setup.md)
+-   **Theme development** 
+-   [Layouts](layouts/index.md)
+-   [Components](components/index.md)
+-   [Functions](functions/index.md)
+-   [Generic exampels](examples/index.md)
+-   **Parent theme development** 
+-   **Usefull Links**
+-   [Laravel - Framework](https://laravel.com/docs/9.x/) 
+-   [Laravel-mix - compiler](https://laravel-mix.com/) 
+-   [Kirki-framework - WP customizer](https://kirki.org/docs/setup/introduction/) 
+-   [Kirki framework - github](https://github.com/kirki-framework)
+-   [wp-cli - commandline](https://make.wordpress.org/cli/handbook/) 
+-   [ACF - local JSON](https://www.advancedcustomfields.com/resources/register-fields-via-php/#example)
