@@ -53,5 +53,13 @@
 <!-- div:right-panel -->
 [example](bwps/code.md ':include :type=md')
 
+<!-- div:title-panel -->
+## Modal
+<!-- div:left-panel -->
+[example intro](modal/intro.md ':include :type=md')
+<!-- div:right-panel -->
+[example](modal/code.md ':include :type=md')
+
+
 <!-- panels:end -->
 

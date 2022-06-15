@@ -1,6 +1,6 @@
 #### Default use
 ```php   
-<x-time timestamp="{{ $timestamp }}"/>
+<x-time type={{$type}} timestamp="{{ $timestamp }}"/>
 ``` 
 
 #### In BWPS scope / query

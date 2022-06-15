@@ -21,7 +21,7 @@
         <div class="event-tiles no-gutter columns-{!! $columns !!}">
             @while ($query->have_posts()) 
                 @php $query->the_post(); @endphp
-                <x-bwps.item />
+                <x-bwps-item />
             @endwhile
         </div>
     @endif
@@ -31,7 +31,7 @@
             @while (have_posts()) 
                 @php the_post(); @endphp
                 @if( get_post_type() == 'bwps' )
-                    <x-bwps.item />
+                    <x-bwps-item />
                 @endif
             @endwhile
         </div>
