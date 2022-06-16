@@ -32,5 +32,10 @@
 <!-- div:right-panel -->
 [example](slider-use/code.md ':include :type=md')
 
-
+<!-- div:title-panel -->
+## Filter boxes
+<!-- div:left-panel -->
+[example intro](filter/intro.md ':include :type=md')
+<!-- div:right-panel -->
+[example](filter/code.md ':include :type=md')
 <!-- panels:end -->
