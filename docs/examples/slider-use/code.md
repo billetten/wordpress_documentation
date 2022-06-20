@@ -1,7 +1,6 @@
 #### BWPS exampel
 ```php
 @php
-    use Xooom\View\Composers\Components\BWPS\Item;
 function sliderArgs() {
     $args = array(
         'nav' => true,
@@ -18,7 +17,7 @@ function sliderArgs() {
     if($bwpsSlider->have_posts()) :
         while($bwpsSlider->have_posts()) : 
             $bwpsSlider->the_post();
-            $text = "<strong>" . Item::getStandard(get_post(get_the_ID())->first_show_unix_time) . "</strong>" . wp_get_post_terms( get_the_ID(), array( 'location' ) )[0]->name?:'';
+            $text = "<strong>" . get_time('short') . "</strong>" . wp_get_post_terms( get_the_ID(), array( 'location' ) )[0]->name?:'';
             $args['slides'][get_the_ID()]=array(
                 'image' => get_the_post_thumbnail_url()?:@get_theme_file_uri('dist/images/slider-default.jpg'),
                 'title' => get_the_title()?:false,
