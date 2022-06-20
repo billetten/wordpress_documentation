@@ -20,5 +20,5 @@
         <p> content </p>
     </div>
 
-</x-container type="default">
+</x-container>
 ``` 
