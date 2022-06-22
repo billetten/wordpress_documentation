@@ -2,25 +2,25 @@
 
 ##### Javascript
 ```javascript
-    window.filter.init('media-grid');
+window.filter.init('media-grid');
 ```
 
 ##### Wordpress query args used 
 These are the args used to get a post type and to get categories in these exampels
 ```php
-    $parent = get_term_by( 'slug', 'arrangementer', 'category' );
+$parent = get_term_by( 'slug', 'arrangementer', 'category' );
 
-    $categories = get_categories([
-        'taxonomy' => 'category',
-        'parent' => $parent->term_id,
-        'hide_empty' => false, 
-    ]);
+$categories = get_categories([
+    'taxonomy' => 'category',
+    'parent' => $parent->term_id,
+    'hide_empty' => false, 
+]);
 
-    $queryArgs = [
-        'post_type' => 'bwps',
-        'cat' => $parent->term_id,
-        'posts_per_page' => -1
-    ];
+$queryArgs = [
+    'post_type' => 'bwps',
+    'cat' => $parent->term_id,
+    'posts_per_page' => -1
+];
 ```
 
 ##### View simple with filter on category
