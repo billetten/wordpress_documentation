@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?91qzhf');
-  src:  url('fonts/icomoon.eot?91qzhf#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?91qzhf') format('truetype'),
-    url('fonts/icomoon.woff?91qzhf') format('woff'),
-    url('fonts/icomoon.svg?91qzhf#icomoon') format('svg');
+  font-family: 'billetten';
+  src:  url('fonts/billetten.eot?xeetrl');
+  src:  url('fonts/billetten.eot?xeetrl#iefix') format('embedded-opentype'),
+    url('fonts/billetten.ttf?xeetrl') format('truetype'),
+    url('fonts/billetten.woff?xeetrl') format('woff'),
+    url('fonts/billetten.svg?xeetrl#billetten') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'billetten' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-handshake-o:before {
+  content: "\f2b5";
+}
 .icon-basket-shopping-solid:before {
   content: "\e910";
 }
@@ -40,17 +43,32 @@
 .icon-facebook-f:before {
   content: "\e913";
 }
-.icon-arrow-thin-up:before {
-  content: "\e900";
+.icon-ticket:before {
+  content: "\e938";
 }
-.icon-arrow-thin-right:before {
-  content: "\e901";
+.icon-file-empty:before {
+  content: "\e93a";
 }
-.icon-arrow-thin-left:before {
-  content: "\e902";
+.icon-files-empty:before {
+  content: "\e93b";
 }
-.icon-arrow-thin-down:before {
-  content: "\e903";
+.icon-play2:before {
+  content: "\ea15";
+}
+.icon-pause:before {
+  content: "\ea16";
+}
+.icon-stop:before {
+  content: "\ea17";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-pause2:before {
+  content: "\ea1d";
+}
+.icon-stop2:before {
+  content: "\ea1e";
 }
 .icon-calendar:before {
   content: "\e914";
@@ -195,4 +213,16 @@
 }
 .icon-volume-x:before {
   content: "\e937";
+}
+.icon-arrow-thin-up:before {
+  content: "\e900";
+}
+.icon-arrow-thin-right:before {
+  content: "\e901";
+}
+.icon-arrow-thin-left:before {
+  content: "\e902";
+}
+.icon-arrow-thin-down:before {
+  content: "\e903";
 }

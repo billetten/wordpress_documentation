@@ -79,14 +79,30 @@ themes/theme_name/            # → Root of your theme
 ## Parent theme structure
 <!-- div:left-panel -->
 ```sh
-themes/theme_name/            # → Root of your theme
+themes/xooom_parent_theme/    # → Root of your theme
 ├── app/                      # → Theme PHP
+│   ├── Customizer/           # → Customizer files
+│   │   ├── assets/           # → All js and css used in the customizer
+│   │   ├── Controls/         # → The cusotome customizer controls
+│   │   ├── Panels/           # → All the panels in the customizer
+│   │   ├── Customizer.php    # → Customizer functions
+│   │   └── Settings.php      # → Customizer helper functions
+│   ├── Directives/           # → Theme directives
 │   ├── Providers/            # → Service providers
 │   ├── View/                 # → View models
+│   │   ├── Components/       # → View model components
 │   │   └── Composers/        # → View models
+│   │       ├── Components/   # → View models layouts
+│   │       ├── Layouts/      # → View models partials
+│   │       ├── Partials/     # → View models partials
+│   │       ├── Sections/     # → View models partials
 │   │       ├── App.php       # → general view model use on all views in general
-│   ├── admin.php             # → Theme admin
-│   └── setup.php             # → Theme setup
+│   │       └── Post.php      # → general view model use on all post
+│   ├── XooomAcfSetup.php     # → Theme acf-setup
+│   ├── XooomAdmin.php        # → Theme admin
+│   ├── XooomFilters.php      # → Theme filters
+│   ├── XooomHelpers.php      # → Theme helpers
+│   └── XooomSetup.php        # → Theme setup
 ├── assets/                   # → Theme assets
 │   ├── fonts/                # → Theme fonts
 │   ├── images/               # → Theme images
@@ -96,20 +112,10 @@ themes/theme_name/            # → Root of your theme
 ├── dist/                     # → Built theme assets (never edit)
 ├── resources/                
 │    └── views/               # → Theme templates
-│        ├── components/      # → Component templates  
-│        │    └── BWPS/       # → BWPS view conf
-│        │        ├── types/  # → Here lays the custome file for bwps, if you need to make your own.
-│        │        └── utils/  # → Here lays the time file, used to define how to display time in the theme
+│        ├── components/      # → Component templates
 │        ├── layouts/         # → Base templates
-│        │    ├── Header/     # → Header view conf
-│        │    │   └── types/  # → Here lays the custome file for header, if you need to make your own
-│        │    └── Footer/     # → Footer view conf
-│        │        └── types/  # → Here lays the custome file for footer, if you need to make your own
 │        ├── partials/        # → Partial templates
 │        └── sections/        # → Section templates
-│            └── frontpage/   # → Footer view conf
-│                ├── after    # → The file where you can write HTML displayed after the bwps grid frontpage
-│                └── beafore  # → The file where you can write HTML displayed before the bwps grid frontpage
 ├── composer.json             # → Autoloading for `app/` files
 ├── composer.lock             # → Composer lock file
 ├── functions.php             # → Theme bootloader
