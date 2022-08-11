@@ -5,6 +5,7 @@
 
 #### The icon component code
 The intention of this component is to change it in every theme, but only have et placed on place
+
 ```php
 <ul class="nav_icon_menu">
     <li>
