@@ -1,17 +1,5 @@
 import data from "./selection.json" assert { type: "json" };
 
-{/* <div class="glyph">
-    <div class="clearfix bshadow0 pbs">
-        <span class="icon-umbrella"></span>
-        <span class="mls" data-type='<x-icon type="umbrella"/>'></span>
-    </div>
-    <fieldset class="fs0 size1of1 clearfix hidden-false">
-        <input type="text" readonly value="e949" class="unit size1of2" />
-        <input type="text" maxlength="1" readonly value="&#xe949;"
-            class="unitRight size1of2 talign-right" />
-    </fieldset>
-</div> */}
-
 const search = (evt) => {
     const searchvalue = evt.target.value; 
     if(searchvalue && searchvalue !== '') {
@@ -83,29 +71,3 @@ const search = (evt) => {
     const searchbar = document.getElementById('searchbar');
     if(searchbar) searchbar.addEventListener('keyup', search);
 })();
-
-// var mls = document.getElementsByClassName('mls');
-
-// for(var i=0; i< mls.length; i++){
-//     mls[i].onclick = function(){ 
-//         var a = this.getAttribute('data-type');
-//         var textArea = document.createElement("textarea");
-//         textArea.value = a;
-//         document.body.appendChild(textArea);
-//         textArea.select();
-//         try {
-//             var successful = document.execCommand('copy');
-//             var msg = successful ? 'successful' : 'unsuccessful';
-//             var elm = this;
-//             elm.classList.toggle(msg);
-//             setTimeout(function() {
-//                 elm.classList.toggle(msg);
-//             }, 2000);
-//         } catch (err) {
-//             console.log('Oops, unable to copy');
-//         }
-//         document.body.removeChild(textArea);
-//     }
-    
-// }
-
