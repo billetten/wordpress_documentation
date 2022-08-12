@@ -4,6 +4,7 @@
 -   **Theme development** 
 -   [Layouts](themeDevelopment/layouts/index.md)
 -   [Components](themeDevelopment/components/index.md)
+-   [Icon component](icons/index.md)
 -   [Functions](themeDevelopment/functions/index.md)
 -   [Generic exampels](themeDevelopment/examples/index.md)
 -   **Parent theme development** 
