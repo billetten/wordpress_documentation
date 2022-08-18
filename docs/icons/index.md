@@ -10,4 +10,4 @@ You can pass everything to the icon, so if you need to pass class, style, data a
 ```
 
 ### The icons you can use 
-[cinwell website](/index.html ':include :type=iframe width=100% height=1200px')
+[cinwell website](/index.html ':include :type=iframe width=100% height=800px')

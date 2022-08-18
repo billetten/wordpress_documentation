@@ -21,6 +21,25 @@ const search = (evt) => {
     }
 }
 
+const copy = (elm) => {
+    var a = elm.getAttribute('data-type');
+    var textArea = document.createElement("textarea");
+    textArea.value = a;
+    document.body.appendChild(textArea);
+    textArea.select();
+    try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'successful' : 'unsuccessful';
+        elm.classList.toggle(msg);
+        setTimeout(function() {
+            elm.classList.toggle(msg);
+        }, 1000);
+    } catch (err) {
+        console.log('Oops, unable to copy');
+    }
+    document.body.removeChild(textArea);
+}
+
 (function() {
     const { icons } = data;
     // console.log(icons);
@@ -44,26 +63,19 @@ const search = (evt) => {
         const mls = document.createElement('span');
         mls.setAttribute('class', 'mls');
         mls.setAttribute('data-type', `<x-icon type="${iconName}"/>`);
-        mls.onclick = function(){ 
-            var a = this.getAttribute('data-type');
-            var textArea = document.createElement("textarea");
-            textArea.value = a;
-            document.body.appendChild(textArea);
-            textArea.select();
-            try {
-                var successful = document.execCommand('copy');
-                var msg = successful ? 'successful' : 'unsuccessful';
-                var elm = this;
-                elm.classList.toggle(msg);
-                setTimeout(function() {
-                    elm.classList.toggle(msg);
-                }, 1000);
-            } catch (err) {
-                console.log('Oops, unable to copy');
-            }
-            document.body.removeChild(textArea);
-        }
+        mls.onclick = function() { copy(this) };
         pbs.appendChild(mls);
+
+        const ctn = document.createElement('div');
+        ctn.setAttribute('class', 'ctn');
+        glyph.appendChild(ctn);
+
+        const content = document.createElement('p');
+        content.innerHTML = `class: icon-${iconName}`;
+        content.setAttribute('data-type', `icon-${iconName}`);
+        content.onclick = function() { copy(this) };
+        ctn.appendChild(content);
+
         container.appendChild(glyph);
     })
 

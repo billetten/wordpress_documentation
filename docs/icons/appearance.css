@@ -19,7 +19,7 @@ body {
     gap: 10px;
 }
 .glyph {
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
     border: 1px solid #ccc;
 }
@@ -85,16 +85,25 @@ input:focus {
     position: relative;
     cursor: pointer;
 }
-.mls:hover {
+.mls:hover, .ctn p:hover {
     color: green;
 }
-.mls::after {
+.mls::after, .ctn p {
     content:attr(data-type);
     width: 100%;
     display: block;
-    font-size: 14px;
+    font-size: 13px;
+    margin: 0;
+    cursor: pointer;
 }
-.mls.successful::before {
+.ctn p {
+    position: relative;
+    text-align: right;
+    border-top: 1px solid #ddd;
+    margin-top: 7px;
+    padding-top: 7px;
+}
+.mls.successful::before, .ctn p.successful::before {
     content: "Copied";
     position: absolute;
     top: -5px;
@@ -105,7 +114,7 @@ input:focus {
     border-radius: 200px;
     font-size: 12px;
 }
-.mls.unsuccessful::before {
+.mls.unsuccessful::before, .ctn p.unsuccessful::before {
     content: "Didn't copy";
     position: absolute;
     top: 0;
@@ -113,4 +122,12 @@ input:focus {
     color: white;
     padding: 5px 20px;
     border-radius: 200px;
+}
+
+hr {
+    color: #ddd;
+}
+
+iframe {
+    border: none;
 }

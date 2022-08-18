@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'billetten';
-  src:  url('fonts/billetten.eot?fque96');
-  src:  url('fonts/billetten.eot?fque96#iefix') format('embedded-opentype'),
-    url('fonts/billetten.ttf?fque96') format('truetype'),
-    url('fonts/billetten.woff?fque96') format('woff'),
-    url('fonts/billetten.svg?fque96#billetten') format('svg');
+  src:  url('fonts/billetten.eot?hcgulw');
+  src:  url('fonts/billetten.eot?hcgulw#iefix') format('embedded-opentype'),
+    url('fonts/billetten.ttf?hcgulw') format('truetype'),
+    url('fonts/billetten.woff?hcgulw') format('woff'),
+    url('fonts/billetten.svg?hcgulw#billetten') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-music1:before {
+  content: "\f001";
+}
+.icon-search1:before {
+  content: "\f002";
+}
 .icon-envelope-o:before {
   content: "\f003";
 }
 .icon-heart1:before {
   content: "\f004";
+}
+.icon-cog:before {
+  content: "\f013";
+}
+.icon-gear:before {
+  content: "\f013";
+}
+.icon-trash-o:before {
+  content: "\f014";
+}
+.icon-home1:before {
+  content: "\f015";
 }
 .icon-tag1:before {
   content: "\f02b";
@@ -58,6 +76,9 @@
 .icon-arrow-down:before {
   content: "\f063";
 }
+.icon-calendar1:before {
+  content: "\f073";
+}
 .icon-facebook-square:before {
   content: "\f082";
 }
@@ -70,8 +91,38 @@
 .icon-truck1:before {
   content: "\f0d1";
 }
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-rocket:before {
+  content: "\f135";
+}
+.icon-cc-visa:before {
+  content: "\f1f0";
+}
+.icon-cc-mastercard:before {
+  content: "\f1f1";
+}
+.icon-cc-discover:before {
+  content: "\f1f2";
+}
+.icon-cc-amex:before {
+  content: "\f1f3";
+}
+.icon-cc-paypal:before {
+  content: "\f1f4";
+}
+.icon-cc-stripe:before {
+  content: "\f1f5";
+}
 .icon-facebook-official:before {
   content: "\f230";
+}
+.icon-bed:before {
+  content: "\f236";
+}
+.icon-hotel:before {
+  content: "\f236";
 }
 .icon-handshake-o:before {
   content: "\f2b5";
@@ -91,11 +142,86 @@
 .icon-camera1:before {
   content: "\e94b";
 }
+.icon-office:before {
+  content: "\e913";
+}
+.icon-book1:before {
+  content: "\e94f";
+}
+.icon-books:before {
+  content: "\e950";
+}
 .icon-file-empty:before {
   content: "\e93a";
 }
 .icon-files-empty:before {
   content: "\e93b";
+}
+.icon-price-tag:before {
+  content: "\e951";
+}
+.icon-price-tags:before {
+  content: "\e952";
+}
+.icon-ticket1:before {
+  content: "\e953";
+}
+.icon-location:before {
+  content: "\e954";
+}
+.icon-map1:before {
+  content: "\e955";
+}
+.icon-map2:before {
+  content: "\e956";
+}
+.icon-clock2:before {
+  content: "\e957";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-hammer:before {
+  content: "\e996";
+}
+.icon-magic-wand:before {
+  content: "\e997";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-glass:before {
+  content: "\e9a0";
+}
+.icon-mug:before {
+  content: "\e9a2";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-power:before {
+  content: "\e9b5";
+}
+.icon-power-cord:before {
+  content: "\e9b7";
+}
+.icon-clipboard:before {
+  content: "\e9b8";
+}
+.icon-eye:before {
+  content: "\e9ce";
+}
+.icon-checkmark:before {
+  content: "\ea10";
 }
 .icon-play2:before {
   content: "\ea15";
