@@ -7,10 +7,10 @@ cd wordpress
 
 Download wordpress files
 ```sh
-wp core download --locale=da_DK --allo
+wp core download --locale=da_DK
 ```
 
-Download wordpress files as root
+Download wordpress files as root if folder is owned by root. (nginx)
 ```sh
 sudo wp core download --locale=da_DK --allow-root
 ```
