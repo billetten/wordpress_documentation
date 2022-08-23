@@ -1,60 +1,31 @@
 #### Install PHP 7.4
 ```cmd
-sudo apt install software-properties-common apt-transport-https -y
-```
-```cmd
-sudo add-apt-repository ppa:ondrej/php -y
-```
-```cmd
 sudo apt update
 ```
 ```cmd
-sudo apt upgrade
+sudo apt install php7.4
 ```
 ```cmd
-sudo apt install php-7.4 libapache2-mod-php7.4 -y
-```
-```cmd
-sudo systemctl restart apache2
-```
-```cmd
-sudo apt install php7.4-fpm libapache2-mod-fcgid
-```
-```cmd
-sudo a2enmod proxy_fcgi setenvif && sudo a2enconf php7.4-fpm
-```
-```cmd
-sudo systemctl restart apache2
+sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl php7.4-fpm -y
 ```
 
-#### Install PHP 8.x
-```cmd
-sudo apt install software-properties-common apt-transport-https -y
-```
-```cmd
-sudo apt -y upgrade
-```
-```cmd
-sudo systemctl reboot
-```
-```cmd
-sudo apt install lsb-release ca-certificates apt-transport-https software-properties-common -y
-```
-```cmd
-sudo add-apt-repository ppa:ondrej/php
-```
+#### Install PHP 8.0
 ```cmd
 sudo apt update
 ```
 ```cmd
 sudo apt install php8.0
 ```
-##### Install extenstions 
-To install PHP 8 extensions on Ubuntu22.04|20.04|18.04 use the command syntax:
-
 ```cmd
-sudo apt install php8.0-<extension>
+sudo apt install php8.0-common php8.0-mysql php8.0-xml php8.0-xmlrpc php8.0-curl php8.0-gd php8.0-imagick php8.0-cli php8.0-dev php8.0-imap php8.0-mbstring php8.0-opcache php8.0-soap php8.0-zip php8.0-intl php8.0-fpm -y
+```
+#### Install PHP 8.1
+```cmd
+sudo apt update
 ```
 ```cmd
-sudo apt install php8.0-cli php8.0-common php8.0-imap php8.0-redis php8.0-snmp php8.0-xml php8.0-zip php8.0-mbstring
+sudo apt install php8.1
+```
+```cmd
+sudo apt install php8.1-common php8.1-mysql php8.1-xml php8.1-xmlrpc php8.1-curl php8.1-gd php8.1-imagick php8.1-cli php8.1-dev php8.1-imap php8.1-mbstring php8.1-opcache php8.1-soap php8.1-zip php8.1-intl php8.1-fpm -y
 ```

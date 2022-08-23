@@ -8,11 +8,11 @@
 -   [Functions](themeDevelopment/functions/index.md)
 -   [Generic exampels](themeDevelopment/examples/index.md)
 -   **Parent theme development** 
--   **Wordpress installation**
+-   **Local environment**
 -   Linux
 -   [Add prerequisite](wordpressDevelopment/linux/addPrerequisite/index.md)
 -   [Setup wordpress](wordpressDevelopment/linux/setupWordpress/index.md)
--   [Composer](wordpressDevelopment/linux/composer/index.md)
+-   [Hacks](wordpressDevelopment/linux/composer/index.md)
 -   MAC
 -   **Usefull Links**
 -   [Laravel - Framework](https://laravel.com/docs/9.x/) 

@@ -1,6 +1,6 @@
-# Composer
-
-#### Get composer to use a specific php version 
+# Hacks
+## Composer
+### Get composer to use a specific php version 
 ```sh
 /usr/bin/php7.4 /usr/local/bin/composer 
 ```
@@ -15,4 +15,4 @@ c7 update
 ```
 this will use composer with php 7.4 to update an composer project 
 
-Read more about alias (here)[https://www.tecmint.com/create-alias-in-linux/]
+Read more about alias [here](https://www.tecmint.com/create-alias-in-linux/)
