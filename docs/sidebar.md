@@ -7,6 +7,7 @@
 -   [Icon component](icons/index.md)
 -   [Functions](themeDevelopment/functions/index.md)
 -   [Generic exampels](themeDevelopment/examples/index.md)
+-   [SBAMS functions](themeDevelopment/sbasm/index.md)
 -   [SCSS functions](themeDevelopment/sass/index.md)
 -   **Parent theme development** 
 -   **Local environment**
