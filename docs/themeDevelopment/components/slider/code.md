@@ -10,7 +10,6 @@
         'items' => int, # -> items pr slide
         'in' => string, # -> animation class 
         'out' => string, # -> animation class  
-        'transition' => int, # -> miliseconds
         'nav-color' => string, # -> Choose between pri / sec / ter / qua
         'slider-height' => string, # -> css variable
         'slides' => array(

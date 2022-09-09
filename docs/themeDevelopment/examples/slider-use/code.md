@@ -2,7 +2,9 @@ An exampel of how to use the slider component with BWPS items.
 
 [See the component](/components/index.md?id=slider) for deeper undertanding of the args.
 
-#### BWPS exampel
+#### Slider component exampel
+Here we use the slider component, which i primarely made for BWPS.
+Though you can generate your own slides, see more in about this in the component array explanation. 
 ```php
 @php
 function sliderArgs() {
@@ -38,4 +40,30 @@ function sliderArgs() {
 }
 @endphp
 <x-slider :args="sliderArgs()" />
+```
+
+#### Slider exampel with ACF Pro gallery field
+There can be cases where the best solution for the slider, is to make it likes this. 
+Now you have full control over the slide it self. 
+```php
+@php
+    $slides = get_field('frontpage_slider');
+@endphp
+
+@if ($slides)
+    <div class="owl-carousel owl-loaded owl-drag simple-slider" 
+        data-slider-nav="{{ false }}"
+        data-slider-dots="{{ true }}" 
+        data-slider-loop="{{ true }}"
+        data-slider-autoplay="{{ true }}" 
+        data-slider-autoplay-timeout="{{ 8000 }}"
+        data-slider-items="{{ 1 }}">
+        @foreach ($slides as $slide)
+            <div class="slide" style="height: 400px">
+                <div class="media" style="background-image: url({{ $slide['url'] }})">
+                </div>
+            </div>
+        @endforeach
+    </div>
+@endif
 ```
