@@ -14,4 +14,8 @@ Now for the wordpress plugin:
 <!-- div:right-panel -->
 [example](getEvent/example.md ':include :type=md')
 
+<!-- div:title-panel -->
+## Event Time
+[code](getTime/code.md ':include :type=md')
+
 <!-- panels:end -->

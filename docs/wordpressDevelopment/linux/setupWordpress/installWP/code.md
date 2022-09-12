@@ -10,7 +10,7 @@ Download wordpress files
 wp core download --locale=da_DK
 ```
 
-Download wordpress files as root if folder is owned by root. (nginx)
+Download wordpress files as root if folder is protected. (nginx)
 ```sh
 sudo wp core download --locale=da_DK --allow-root
 ```

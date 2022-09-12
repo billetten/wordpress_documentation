@@ -67,6 +67,7 @@ themes/theme_name/            # → Root of your theme
 ├── composer.json             # → Autoloading for `app/` files
 ├── composer.lock             # → Composer lock file
 ├── functions.php             # → Theme bootloader
+├── head.php                  # → Where you place all links to the head tag
 ├── index.php                 # → Theme template wrapper
 ├── package.json              # → Node.js dependencies and scripts
 ├── screenshot.png            # → Theme screenshot for WP admin
@@ -119,6 +120,7 @@ themes/xooom_parent_theme/    # → Root of your theme
 ├── composer.json             # → Autoloading for `app/` files
 ├── composer.lock             # → Composer lock file
 ├── functions.php             # → Theme bootloader
+├── head.php                  # → Where you place all links to the head tag
 ├── index.php                 # → Theme template wrapper
 ├── package.json              # → Node.js dependencies and scripts
 ├── screenshot.png            # → Theme screenshot for WP admin

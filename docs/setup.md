@@ -44,6 +44,7 @@ themes/xooom_parent_theme/    # → Root of your theme
 ├── vendor/                   # → Theme assets and templates
 ├── views/                    # → Theme assets and templates
 ├── functions.php             # → Theme bootloader
+├── head.php                  # → Where you place all links to the head tag
 ├── index.php                 # → Theme template wrapper
 ├── screenshot.png            # → Theme screenshot for WP admin
 └── style.css                 # → Theme meta information

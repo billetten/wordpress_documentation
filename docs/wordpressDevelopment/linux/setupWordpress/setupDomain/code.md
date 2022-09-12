@@ -37,7 +37,8 @@ sudo service nginx restart
 At this stage, WordPress is ready and can be launched by going to the server’s IP or hostname.
 
 For WSL users: 
-You need to aff the domain in the hostfile on windows.
+
+You need to add the domain in the hostfile on windows.
 
 Run as administrator when running command in powershell: 
 ```sh
