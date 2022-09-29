@@ -35,4 +35,9 @@
 ## Filter boxes
 [example](filter/code.md ':include :type=md')
 
+
+<!-- div:title-panel -->
+## Lazy load
+[example](lazyLoad/code.md ':include :type=md')
+
 <!-- panels:end -->
