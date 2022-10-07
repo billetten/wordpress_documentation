@@ -14,30 +14,32 @@ You need to have the [parent theme](https://github.com/billetten/wordpress_paren
 - `yarn` - Install all the required node dependencies 
 
 <!-- div:title-panel -->
-## Development commands
+## Development
 <!-- div:left-panel -->
 First you need to go into the webpack.mix.js file and configure the dev url you are using in line 20.
 The default, if you don't change anything, is dev.wptest.
 
-- `yarn start` — Compile assets and start a localserver, where webpack is observing for changes to the files 
+- `yarn start` — Compile and start a localserver, where webpack is observing for changes to the files 
 
 You can see your project on localhost:8080, if you have set the domain in webpack.mix.js correctly. 
 On localhost:8081 runs browsersync, which is an awesome tool, you can use to network throttle and a lot more. 
 
 <!-- div:title-panel -->
-## Build commands
+## Production
 <!-- div:left-panel -->
-- `yarn build` — Compile assets to the dist folder
+When you run fpr production, you need to build the theme. 
+When running yarn build laravel mix minify and compress all the files, which doesn't happen when runnning yarn start. 
+- `yarn build` — Compile, minify and compress assets to the dist folder
 
 <!-- div:title-panel -->
 ## Deployment
 <!-- div:left-panel -->
 When deploying the theme, you need to have build the project first. 
-Then place all these files into wp-content\themes\{child_theme} in the wordpress installation. 
+Then place all these files into wp-content\themes\ {child_theme} in the wordpress installation. 
 The only folders and filse you need to place in their respective folder: 
 
 ```sh
-themes/xooom_parent_theme/    # → Root of your theme
+themes/theme/    # → Root of your theme
 ├── app/                      # → Theme files, setup files and customizer files
 ├── config/                   # → Contains files used by webpack to help compile the theme
 ├── dist/                     # → Built theme assets (never edit)

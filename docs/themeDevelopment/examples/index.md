@@ -28,7 +28,7 @@
 [example](gallery/code.md ':include :type=md')
 
 <!-- div:title-panel -->
-## Slider with BWPS
+## Slider
 [example](slider-use/code.md ':include :type=md')
 
 <!-- div:title-panel -->

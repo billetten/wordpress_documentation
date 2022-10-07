@@ -4,6 +4,6 @@
     "description": "",
     "main": "index.html",
     "scripts": {
-        "start": "docsify serve docs"
+        "start": "docsify serve docs -p 5000"
     }
   }
