@@ -15,7 +15,7 @@ You can find and add a custom BWPS here: **resources/views/components/bwps/types
 You have these variables you can use: 
 ```php
     $location       # The location for the bwps
-    $title          # The title for the bwos 
+    $title          # The title for the bwps 
     $image          # The image url 
     $link           # The permalink to the bwps 
     $timeType       # Wether it's a short or long type type

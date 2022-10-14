@@ -15,5 +15,5 @@ Modal with html content
 #### Media
 Here is a modal with media inside 
 ```php
-<x-modal class="some class" src="url">
+<x-modal class="some class" src="url"/>
 ```
