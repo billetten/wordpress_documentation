@@ -13,21 +13,10 @@ We have build a wordpress theme structure, where we use 2 themese:
 * [Wordpress template](https://github.com/billetten/wordpress_template)
 
 #### Wordpress parent theme
-This is a base theme, we allways developm upon. The idea is that every website use this theme as a base, so when we update this theme, all the new features automatcally gets pushed to the websites. 
+This is a base theme, which we'll allways develop upon. The idea is that every website use this theme as a base, so when we update this theme, all the new features automatcally gets pushed to the websites. 
 
 #### Wordpress template
 This is a child theme, made to work perfectly with the parentheme. This git repo is only used as a template to copy. 
-
-<!-- div:title-panel -->
-## Stack
-<!-- div:left-panel -->
-- [WordPress](https://wordpress.org/) >= 5.9
-- BWPS - Billetten custome plugin for wordpress
-- Advanved custom fields - Plugin for wordpress
-- [PHP](https://secure.php.net/manual/en/install.php) >= 7.4.0 (with [`php-mbstring`](https://secure.php.net/manual/en/book.mbstring.php) enabled)
-- [Composer](https://getcomposer.org/download/)
-- [Node.js](http://nodejs.org/) >= 16
-- [Yarn](https://yarnpkg.com/en/docs/install)
 
 <!-- div:title-panel -->
 ## Template structure
@@ -128,15 +117,4 @@ themes/xooom_parent_theme/    # → Root of your theme
 ├── webpack.mix.js            # → Laravel-mix config 
 └── yarn.lock                 # → Yarn lock file 
 ```
-
-<!-- div:title-panel -->
-## Useful commands
-Usefull commands, to use when developing. 
-<!-- div:left-panel -->
-- `yarn clean` — Clean storage Dist.* Cahce.* and Views.* / note: you need to rebuild the project after. 
-- `yarn clean:cache` — Cleans the storage cache.
-- `yarn clean:views` — Cleans the storage views.
-- `composer dump-autoload clean` — Regenarates a list of all used classes 
-- `wp cache flush` — Flush the cahce made in the wp uploads directory. Note: you need wp-cli for this command.  
-
 <!-- panels:end -->
