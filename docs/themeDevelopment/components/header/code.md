@@ -5,7 +5,7 @@ When you need to use the component:
 ```
 When used like above, the component returns the predefine header, which is choosen in the customizer.
 
-So if you want to return something other than that, you can write the direct name of the header fil, which you would like to use: 
+So if you want to return something other than that, you can write the direct name of the header file, which you would like to use: 
 
 ```php
 <x-header type="somename"/>

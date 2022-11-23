@@ -17,6 +17,9 @@
 
 <!-- div:title-panel -->
 ## Custom BWPS
+<!-- div:left-panel -->
+[intro](bwps/intro.md ':include :type=md')
+<!-- div:right-panel -->
 [example](bwps/code.md ':include :type=md')
 
 <!-- div:title-panel -->
@@ -26,18 +29,5 @@
 <!-- div:title-panel -->
 ## Gallery
 [example](gallery/code.md ':include :type=md')
-
-<!-- div:title-panel -->
-## Slider
-[example](slider-use/code.md ':include :type=md')
-
-<!-- div:title-panel -->
-## Filter boxes
-[example](filter/code.md ':include :type=md')
-
-
-<!-- div:title-panel -->
-## Lazy load
-[example](lazyLoad/code.md ':include :type=md')
 
 <!-- panels:end -->

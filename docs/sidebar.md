@@ -5,8 +5,16 @@
 -   [Layouts](themeDevelopment/layouts/index.md)
 -   [Components](themeDevelopment/components/index.md)
 -   [Icon component](icons/index.md)
+-   *Javascript plugins*
+-   [Multiselect](themeDevelopment/javascriptPlugins/multiselect/index.md)
+-   [Filter](themeDevelopment/javascriptPlugins/filter/index.md)
+-   [Lazyload](themeDevelopment/javascriptPlugins/lazyload/index.md)
+-   [Slider](themeDevelopment/javascriptPlugins/slider-use/index.md)
+-   *Customizer*
 -   [Functions](themeDevelopment/functions/index.md)
--   [Generic exampels](themeDevelopment/examples/index.md)
+-   *Developing*
+-   [Examples](themeDevelopment/examples/index.md)
+-   *External functions*
 -   [SBAMS functions](themeDevelopment/sbasm/index.md)
 -   [SCSS functions](themeDevelopment/sass/index.md)
 -   **Parent theme development** 
