@@ -27,6 +27,14 @@
 [example](bwps-grid/code.md ':include :type=md')
 
 <!-- div:title-panel -->
+## Calender show view
+<!-- div:left-panel -->
+[intro](calender-show-view/intro.md ':include :type=md')
+<!-- div:right-panel -->
+[example](calender-show-view/code.md ':include :type=md')
+
+
+<!-- div:title-panel -->
 ## Gallery
 [example](gallery/code.md ':include :type=md')
 
