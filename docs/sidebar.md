@@ -5,13 +5,17 @@
 -   [Layouts](themeDevelopment/layouts/index.md)
 -   [Components](themeDevelopment/components/index.md)
 -   [Icon component](icons/index.md)
+-   [Gutenberg Blocks](themeDevelopment/blocks/index.md)
 -   *Javascript plugins*
 -   [Multiselect](themeDevelopment/javascriptPlugins/multiselect/index.md)
 -   [Filter](themeDevelopment/javascriptPlugins/filter/index.md)
 -   [Lazyload](themeDevelopment/javascriptPlugins/lazyload/index.md)
 -   [Slider](themeDevelopment/javascriptPlugins/slider-use/index.md)
--   *Customizer*
--   [Functions](themeDevelopment/functions/index.md)
+-   *Theme functions*
+-   [Show functions](themeDevelopment/functions/shows/index.md)
+-   [Event functions](themeDevelopment/functions/events/index.md)
+-   [Customizer functions](themeDevelopment/functions/customizer/index.md)
+-   [Helper functions](themeDevelopment/functions/helper/index.md)
 -   *Developing*
 -   [Examples](themeDevelopment/examples/index.md)
 -   *External functions*

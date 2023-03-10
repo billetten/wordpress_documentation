@@ -1,4 +1,4 @@
-# Components
+# Customizer functions
 
 <!-- panels:start -->
 
