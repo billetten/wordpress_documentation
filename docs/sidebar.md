@@ -12,7 +12,7 @@
 -   [Lazyload](themeDevelopment/javascriptPlugins/lazyload/index.md)
 -   [Slider](themeDevelopment/javascriptPlugins/slider-use/index.md)
 -   *Theme functions*
--   [Show functions](themeDevelopment/functions/shows/index.md)
+-   [Show functions](themeDevelopment/functions/showsrn/index.md)
 -   [Event functions](themeDevelopment/functions/events/index.md)
 -   [Customizer functions](themeDevelopment/functions/customizer/index.md)
 -   [Helper functions](themeDevelopment/functions/helper/index.md)
