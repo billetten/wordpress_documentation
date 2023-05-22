@@ -1,4 +1,4 @@
-import data from "./selection.json" assert { type: "json" };
+import data from "./selection.js";
 
 const search = (evt) => {
     const searchvalue = evt.target.value; 
