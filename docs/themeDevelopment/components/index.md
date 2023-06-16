@@ -74,6 +74,13 @@
 <!-- div:right-panel -->
 [example](modal/code.md ':include :type=md')
 
+<!-- div:title-panel -->
+## Allyy
+<!-- div:left-panel -->
+[example intro](allyy/intro.md ':include :type=md')
+<!-- div:right-panel -->
+[example](allyy/code.md ':include :type=md')
+
 
 <!-- panels:end -->
 
