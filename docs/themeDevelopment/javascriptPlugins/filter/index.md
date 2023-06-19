@@ -159,7 +159,16 @@ $query = new WP_Query([
     </div>
 @endif
 ```
+Remeber to have the text you want to search for, have a *search_name* class.
 
+In the example we use:
+```php
+<x-bwps-item type="custom" />
+```
+And this file need to contain: 
+```php
+<p class='search_name'>{!! $title !!}</p>
+```
 ### Simple
 ```php
 <div class="row">

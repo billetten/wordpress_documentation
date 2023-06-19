@@ -1,7 +1,6 @@
 # Components
 <!-- panels:start -->
 
-
 <!-- div:title-panel -->
 ## Container component
 <!-- div:left-panel -->

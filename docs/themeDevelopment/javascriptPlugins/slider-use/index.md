@@ -18,10 +18,14 @@ You can give alot of variables to the slider:
 ```
 
 You can parse the prob value in 2 ways:
+#### True:
 `data-slider-nav="1"`
 or
 `data-slider-nav="{{ true }}"`,
-These mean the same thing.
+#### False:
+`data-slider-nav="0"`
+or
+`data-slider-nav="{{ false }}"`,
 
 | Property                     | Description                                                                             | Required | Default |
 | ---------------------------- | ------------------------------------------------------------------------------------------ | --- | ----- |
